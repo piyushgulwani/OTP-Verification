@@ -21,8 +21,8 @@ def get_otp() :
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
-    server.login('enter_email', 'enter_pass')
-    server.sendmail('enter_email', receiver,  content)
+    server.login('exexample829@gmail.com', 'MSDHONI1')
+    server.sendmail('exexample829@gmail.com', receiver,  content)
     server.close()
 
 #! Checking OTP
@@ -41,8 +41,8 @@ def get_otp() :
             server.ehlo()
             server.starttls()
             content1 = (f"Someone just tried to login\n Login Details: \n \nUserName:  {os.getlogin()}\nTime: {time.strftime('%H:%M:%S')}\n")
-            server.login('enter_email', 'enter_pass')
-            server.sendmail('enter_email', receiver,  content1)
+            server.login('exexample829@gmail.com', 'MSDHONI1')
+            server.sendmail('exexample829@gmail.com', receiver,  content1)
             server.close()
             
 
