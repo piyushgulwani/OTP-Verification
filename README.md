@@ -2,7 +2,9 @@
 
 ---
 ### *Guidance* 
-- ### Don't Mess up with the given email and pass  :heavy_exclamation_mark:
+- ### :one: Don't Mess up with the given email and pass  :heavy_exclamation_mark:
+- ### :two: The `otp-non` file is for Non-Programmers
+- ### :three: Don't delete the `.ico file` 
 ---
 
 ### *Modules Used*
