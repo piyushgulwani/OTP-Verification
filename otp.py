@@ -32,7 +32,6 @@ def get_otp() :
         
 
         if (login_num_check == number_gen) : 
-            print(e2_value.get())
             tmsg.showinfo('Sucess!!', 'Login Sucess')
 
         else: 
@@ -60,7 +59,7 @@ def get_otp() :
 
 
     except Exception as e : 
-        print(f"Error occured\n{e}")
+        tsmg.showerror('Error', f"{e}")
 
 gui = Tk()
 gui.title('OTP Verification')
